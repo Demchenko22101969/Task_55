@@ -22,17 +22,20 @@ function printArrayElement(array, index) {
   }
 }
 
-// create massive vith 5-lines
-var array = ["line 1", "line 2", "line 3", "line 4", "line 5"];
+// create 2 massives vith 5-elements
+let array = ["day 1", "day 2", "day 3", "day 4", "day 5"];
+let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Turthsday"];
 
 // output each element of the array
 for (var i = 0; i < array.length; i++) {
   console.log(array[i]);
+  console.log(days[i]);
 }
 
 //call the printArrayElement function with different types of the index variable
 var x = 2;
 printArrayElement(array, x-1); 
+printArrayElement(days, x-1);
 
 var z = 8;
 printArrayElement(array, z); 
