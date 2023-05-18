@@ -26,21 +26,21 @@ function printArrayElement(array, index) {
 let array = ["day 1", "day 2", "day 3", "day 4", "day 5"];
 let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Turthsday"];
 
-// output each element of the array
+// output each element of the arrays
 for (var i = 0; i < array.length; i++) {
   console.log(array[i]);
   console.log(days[i]);
 }
 
 //call the printArrayElement function with different types of the index variable
-var x = 2;
+let x = 2;
 printArrayElement(array, x-1); 
 printArrayElement(days, x-1);
 
-var z = 8;
+let z = 8;
 printArrayElement(array, z); 
 
-var y = "abc";
+let y = "abc";
 printArrayElement(array, y); 
 </script>
 </html>
